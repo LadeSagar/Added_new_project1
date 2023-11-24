@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang=""emmet.triggerExpansionOnTab": true">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+
+
+<body>
+
+    <style>
+        body{
+            background-image: url("https://www.bing.com/images/search?view=detailV2&ccid=j77j%2bT5d&id=A8A4AD501150272881E0E6503C452EF75819D854&thid=OIP.j77j-T5d-fnWaY2YQIHXOgHaEW&mediaurl=https%3a%2f%2fs4745.pcdn.co%2fwp-content%2fuploads%2f2018%2f07%2frising-home-prices-twitter.jpg&exph=706&expw=1200&q=house+price+img&simid=608044314494006338&FORM=IRPRST&ck=56517FC3512DB352CE6D9DF895E769EE&selectedIndex=0&ajaxhist=0&ajaxserp=0");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    
+    
+   
+<h1> Banglore House Price Prediction </h1>
+
+<form method="GET" action ="/test">
+
+    <label><b>Area Type:</b></label>
+    <select name="area_type">
+        <option value="Super built-up  Area">Super built-up  Area</option>
+        <option value="Plot  Area">Plot  Area</option>
+        <option value="Built-up  Area">Built-up  Area</option>
+        <option value="Carpet  Area">Carpet  Area</option>
+        
+    </select>
+    
+
+        <br>
+        <br>
+    <label><b>Availability:</b></label>
+    <select name="availability">
+        <option value="Ready To Move">Ready To Move</option>
+        <option value="Immediate Possesion">Immediate Possesion</option>
+        <option value="availabile_dates">Soon Available</option>
+    </select>
+    
+    <br>
+    <br>
+
+    <label><b>Size:</b></label>
+    <select name="size">
+        <option value="1 BHK">1 BHK</option>
+        <option value="2 BHK">2 BHK</option>
+        <option value="3 BHK">3 BHK</option>
+        <option value="4 BHK">4 BHK</option>    
+        <option value="1 Bedroom">1 Bedroom</option>
+        <option value="2 Bedroom">2 Bedroom</option>
+        <option value="3 Bedroom">3 Bedroom</option>
+        <option value="4 Bedroom">4 Bedroom</option>  
+        <option value="5 Bedroom">5 Bedroom</option>
+        <option value="6 Bedroom">6 Bedroom</option>  
+    </select>
+        <br>
+        <br>
+
+    <label><b>Total Square Ft</b></label>
+   <!-- <input type = "text" name = "total_sqft"> -->
+    <input type="text" name="total_sqft"class="input-field" placeholder="Enter area in sqft" autocomplete="off">
+    </select>
+    <br>
+    <br>
+
+    <label><b>Bath</b></label>
+    <input type = "text" name = "bath">
+    </select>
+    <br>
+     <br>
+
+    <label><b>Balcony</b></label>
+    <input type = "text" name = "balcony">
+     </select>
+    <br>
+    <br>    
+        
+
+    <br>
+    <br>
+    <br>
+        
+    <div class="field-group">
+    <label>Location:</label>
+    <input type="text" name="location"class="input-field" placeholder="e.g Sambhaji nagar" autocomplete="off" >
+
+    <br>
+
+    <input type = "submit" value = "SUBMIT">
+
+    <br>
+        <p>Your House Price in Pune will be <b>{{ Price }} lakhs/- Rs.</b> Only. </p>
+
+    </form>
+
+
+
+</body>
+</html>
